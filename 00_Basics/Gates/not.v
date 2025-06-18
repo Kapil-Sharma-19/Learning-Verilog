@@ -1,5 +1,5 @@
 module not_gate (input a, output y);
-    // not a1 (y, a); // Structural: y is the output of a NOT gate with input a
+    // not n1 (y, a); // Structural: y is the output of a NOT gate with input a
     reg y; // Register to hold the output value
     always @ (a) 
         begin
